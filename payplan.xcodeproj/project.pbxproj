@@ -8,24 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		5BEEB2F820B0F4750033BC1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEEB2F720B0F4750033BC1E /* AppDelegate.swift */; };
-		5BEEB2FA20B0F4750033BC1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEEB2F920B0F4750033BC1E /* ViewController.swift */; };
+		5BEEB2FA20B0F4750033BC1E /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEEB2F920B0F4750033BC1E /* MainVC.swift */; };
 		5BEEB2FD20B0F4750033BC1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BEEB2FB20B0F4750033BC1E /* Main.storyboard */; };
 		5BEEB2FF20B0F4760033BC1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BEEB2FE20B0F4760033BC1E /* Assets.xcassets */; };
 		5BEEB30220B0F4760033BC1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BEEB30020B0F4760033BC1E /* LaunchScreen.storyboard */; };
+		5BEEB30C20B0F6120033BC1E /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEEB30B20B0F6120033BC1E /* CurrencyTextField.swift */; };
+		5BEEB31420B2888D0033BC1E /* payplanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEEB31320B2888D0033BC1E /* payplanTests.swift */; };
+		5BEEB31D20B288AD0033BC1E /* wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEEB31C20B288AD0033BC1E /* wage.swift */; };
+		5BEEB31E20B289F90033BC1E /* wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEEB31C20B288AD0033BC1E /* wage.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BEEB31620B2888D0033BC1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BEEB2EC20B0F4750033BC1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BEEB2F320B0F4750033BC1E;
+			remoteInfo = payplan;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5BEEB2F420B0F4750033BC1E /* payplan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = payplan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BEEB2F720B0F4750033BC1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5BEEB2F920B0F4750033BC1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BEEB2F920B0F4750033BC1E /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		5BEEB2FC20B0F4750033BC1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BEEB2FE20B0F4760033BC1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BEEB30120B0F4760033BC1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BEEB30320B0F4760033BC1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BEEB30B20B0F6120033BC1E /* CurrencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
+		5BEEB31120B2888C0033BC1E /* payplanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = payplanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BEEB31320B2888D0033BC1E /* payplanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = payplanTests.swift; sourceTree = "<group>"; };
+		5BEEB31520B2888D0033BC1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BEEB31C20B288AD0033BC1E /* wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5BEEB2F120B0F4750033BC1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BEEB30E20B2888C0033BC1E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				5BEEB2F620B0F4750033BC1E /* payplan */,
+				5BEEB31220B2888D0033BC1E /* payplanTests */,
 				5BEEB2F520B0F4750033BC1E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				5BEEB2F420B0F4750033BC1E /* payplan.app */,
+				5BEEB31120B2888C0033BC1E /* payplanTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +82,49 @@
 		5BEEB2F620B0F4750033BC1E /* payplan */ = {
 			isa = PBXGroup;
 			children = (
+				5BEEB31B20B2889C0033BC1E /* Model */,
+				5BEEB30A20B0F5F70033BC1E /* Views */,
+				5BEEB30920B0F4F50033BC1E /* Controller */,
 				5BEEB2F720B0F4750033BC1E /* AppDelegate.swift */,
-				5BEEB2F920B0F4750033BC1E /* ViewController.swift */,
 				5BEEB2FB20B0F4750033BC1E /* Main.storyboard */,
 				5BEEB2FE20B0F4760033BC1E /* Assets.xcassets */,
 				5BEEB30020B0F4760033BC1E /* LaunchScreen.storyboard */,
 				5BEEB30320B0F4760033BC1E /* Info.plist */,
 			);
 			path = payplan;
+			sourceTree = "<group>";
+		};
+		5BEEB30920B0F4F50033BC1E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5BEEB2F920B0F4750033BC1E /* MainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5BEEB30A20B0F5F70033BC1E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5BEEB30B20B0F6120033BC1E /* CurrencyTextField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5BEEB31220B2888D0033BC1E /* payplanTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BEEB31320B2888D0033BC1E /* payplanTests.swift */,
+				5BEEB31520B2888D0033BC1E /* Info.plist */,
+			);
+			path = payplanTests;
+			sourceTree = "<group>";
+		};
+		5BEEB31B20B2889C0033BC1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5BEEB31C20B288AD0033BC1E /* wage.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +147,24 @@
 			productReference = 5BEEB2F420B0F4750033BC1E /* payplan.app */;
 			productType = "com.apple.product-type.application";
 		};
+		5BEEB31020B2888C0033BC1E /* payplanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BEEB31820B2888D0033BC1E /* Build configuration list for PBXNativeTarget "payplanTests" */;
+			buildPhases = (
+				5BEEB30D20B2888C0033BC1E /* Sources */,
+				5BEEB30E20B2888C0033BC1E /* Frameworks */,
+				5BEEB30F20B2888C0033BC1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BEEB31720B2888D0033BC1E /* PBXTargetDependency */,
+			);
+			name = payplanTests;
+			productName = payplanTests;
+			productReference = 5BEEB31120B2888C0033BC1E /* payplanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +177,10 @@
 				TargetAttributes = {
 					5BEEB2F320B0F4750033BC1E = {
 						CreatedOnToolsVersion = 9.3.1;
+					};
+					5BEEB31020B2888C0033BC1E = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 5BEEB2F320B0F4750033BC1E;
 					};
 				};
 			};
@@ -113,6 +198,7 @@
 			projectRoot = "";
 			targets = (
 				5BEEB2F320B0F4750033BC1E /* payplan */,
+				5BEEB31020B2888C0033BC1E /* payplanTests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +214,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5BEEB30F20B2888C0033BC1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -135,12 +228,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BEEB2FA20B0F4750033BC1E /* ViewController.swift in Sources */,
+				5BEEB30C20B0F6120033BC1E /* CurrencyTextField.swift in Sources */,
+				5BEEB31D20B288AD0033BC1E /* wage.swift in Sources */,
+				5BEEB2FA20B0F4750033BC1E /* MainVC.swift in Sources */,
 				5BEEB2F820B0F4750033BC1E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5BEEB30D20B2888C0033BC1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BEEB31420B2888D0033BC1E /* payplanTests.swift in Sources */,
+				5BEEB31E20B289F90033BC1E /* wage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BEEB31720B2888D0033BC1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BEEB2F320B0F4750033BC1E /* payplan */;
+			targetProxy = 5BEEB31620B2888D0033BC1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5BEEB2FB20B0F4750033BC1E /* Main.storyboard */ = {
@@ -281,6 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AH9W8SX84X;
 				INFOPLIST_FILE = payplan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +411,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AH9W8SX84X;
 				INFOPLIST_FILE = payplan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +421,44 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5BEEB31920B2888D0033BC1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = payplanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prinnprinyanut.payplanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/payplan.app/payplan";
+			};
+			name = Debug;
+		};
+		5BEEB31A20B2888D0033BC1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = payplanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prinnprinyanut.payplanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/payplan.app/payplan";
 			};
 			name = Release;
 		};
@@ -327,6 +479,15 @@
 			buildConfigurations = (
 				5BEEB30720B0F4760033BC1E /* Debug */,
 				5BEEB30820B0F4760033BC1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BEEB31820B2888D0033BC1E /* Build configuration list for PBXNativeTarget "payplanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BEEB31920B2888D0033BC1E /* Debug */,
+				5BEEB31A20B2888D0033BC1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
